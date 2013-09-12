@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{c842bc73-c82d-4fcd-b599-9989b99074d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXML\source">
+      <UniqueIdentifier>{3ea99dbc-a1d1-4e87-9d8c-8b3fb9a03b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXML\Header">
+      <UniqueIdentifier>{4212fc70-5b82-4335-b574-959706f48950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{14b11169-76b1-4a02-9e12-8b99dea9fb13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game States">
+      <UniqueIdentifier>{43de113c-783e-43f7-bc5e-77faa85fcae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SGD Wrappers">
+      <UniqueIdentifier>{ce1c2696-897f-4954-adda-8b693e3a2f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SGD Wrappers\source">
+      <UniqueIdentifier>{ecc09941-b662-4c54-b557-bfa7e02a66b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SGD Wrappers\Headers">
+      <UniqueIdentifier>{c4980d04-6264-4f01-adf8-26a5c71299aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>TinyXML\source</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>TinyXML\source</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>TinyXML\source</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>TinyXML\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BitmapFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CellAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EntityManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\CSGD_Direct3D.cpp">
+      <Filter>SGD Wrappers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\CSGD_DirectInput.cpp">
+      <Filter>SGD Wrappers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\CSGD_EventSystem.cpp">
+      <Filter>SGD Wrappers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\CSGD_MessageSystem.cpp">
+      <Filter>SGD Wrappers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\CSGD_TextureManager.cpp">
+      <Filter>SGD Wrappers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\CSGD_XAudio2.cpp">
+      <Filter>SGD Wrappers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\SGD_Math.cpp">
+      <Filter>SGD Wrappers\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>TinyXML\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>TinyXML\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BitmapFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CellAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EntityManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\IEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="source\IGameState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\CEvent.h">
+      <Filter>SGD Wrappers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\CSGD_Direct3D.h">
+      <Filter>SGD Wrappers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\CSGD_DirectInput.h">
+      <Filter>SGD Wrappers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\CSGD_EventSystem.h">
+      <Filter>SGD Wrappers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\CSGD_MessageSystem.h">
+      <Filter>SGD Wrappers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\CSGD_TextureManager.h">
+      <Filter>SGD Wrappers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\CSGD_XAudio2.h">
+      <Filter>SGD Wrappers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\IListener.h">
+      <Filter>SGD Wrappers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\IMessage.h">
+      <Filter>SGD Wrappers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_Math.h">
+      <Filter>SGD Wrappers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_String.h">
+      <Filter>SGD Wrappers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_Util.h">
+      <Filter>SGD Wrappers\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

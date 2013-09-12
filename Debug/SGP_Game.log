@@ -1,0 +1,33 @@
+﻿Build started 9/7/2013 12:24:11 PM.
+     1>Project "C:\Users\bbudian\Desktop\School\SGP\SGP_Game\SGP_Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /we4010 /we4150 /we4154 /we4172 /we4263 /we4265 /we4390 /we4550 /we4551 /we4552 /we4553 /we4554 /we4555 /we4700 /we4702 /we4715 /we4717 /we4930 source\CellAnimation.cpp source\Game.cpp
+         Game.cpp
+         Generating Code...
+         Compiling...
+         CellAnimation.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bbudian\Desktop\School\SGP\SGP_Game\Debug\SGP_Game.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\bbudian\Desktop\School\SGP\SGP_Game\Debug\SGP_Game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bbudian\Desktop\School\SGP\SGP_Game\Debug\SGP_Game.lib" /MACHINE:X86 Debug\CSGD_Direct3D.obj
+         Debug\CSGD_DirectInput.obj
+         Debug\CSGD_EventSystem.obj
+         Debug\CSGD_MessageSystem.obj
+         Debug\CSGD_TextureManager.obj
+         Debug\CSGD_XAudio2.obj
+         Debug\SGD_Math.obj
+         Debug\BitmapFont.obj
+         Debug\CellAnimation.obj
+         Debug\Entity.obj
+         Debug\EntityManager.obj
+         Debug\Game.obj
+         Debug\WinMain.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         SGP_Game.vcxproj -> C:\Users\bbudian\Desktop\School\SGP\SGP_Game\Debug\SGP_Game.exe
+     1>Done Building Project "C:\Users\bbudian\Desktop\School\SGP\SGP_Game\SGP_Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.04
