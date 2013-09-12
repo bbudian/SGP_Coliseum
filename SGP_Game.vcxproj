@@ -85,6 +85,11 @@
     <ClCompile Include="SGD Wrappers\CSGD_TextureManager.cpp" />
     <ClCompile Include="SGD Wrappers\CSGD_XAudio2.cpp" />
     <ClCompile Include="SGD Wrappers\SGD_Math.cpp" />
+    <ClCompile Include="source\AIAttackState.cpp" />
+    <ClCompile Include="source\AIBaseState.cpp" />
+    <ClCompile Include="source\AIEntryState.cpp" />
+    <ClCompile Include="source\AIIdleState.cpp" />
+    <ClCompile Include="source\AIRetreatState.cpp" />
     <ClCompile Include="source\BitmapFont.cpp" />
     <ClCompile Include="source\CellAnimation.cpp" />
     <ClCompile Include="source\Entity.cpp" />
@@ -109,6 +114,11 @@
     <ClInclude Include="SGD Wrappers\SGD_Math.h" />
     <ClInclude Include="SGD Wrappers\SGD_String.h" />
     <ClInclude Include="SGD Wrappers\SGD_Util.h" />
+    <ClInclude Include="source\AIAttackState.h" />
+    <ClInclude Include="source\AIBaseState.h" />
+    <ClInclude Include="source\AIEntryState.h" />
+    <ClInclude Include="source\AIIdleState.h" />
+    <ClInclude Include="source\AIRetreatState.h" />
     <ClInclude Include="source\BitmapFont.h" />
     <ClInclude Include="source\CellAnimation.h" />
     <ClInclude Include="source\Entity.h" />
