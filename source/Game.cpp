@@ -199,7 +199,7 @@ bool CGame::Input( void )
 
 		return true;
 	}
-	
+
 	return current_state->Input();	// current state handles input
 }
 
